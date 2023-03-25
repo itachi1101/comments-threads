@@ -1,0 +1,35 @@
+{
+  "name": "comment-thread-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itachi1101/comments-threads.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "bugs": {
+    "url": "https://github.com/itachi1101/comments-threads/issues"
+  },
+  "homepage": "https://github.com/itachi1101/comments-threads#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prisma": "^4.11.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
